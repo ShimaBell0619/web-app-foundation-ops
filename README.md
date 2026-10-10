@@ -1,10 +1,10 @@
 # Web App Foundation operations
 
-Owner: `ShimaBell0619`. Private repository for owner-approved private repository creation.
+Owner: `ShimaBell0619`. Public management repository for owner-approved private repository creation. The Owner explicitly approved public visibility on 2026-10-10 to allow enforced main protection on the existing free plan. Issue names, management code and Actions logs are public; created repositories remain private.
 
 ## Activation gate
 
-This repository currently cannot enforce main protection on the existing GitHub plan. Do not issue or save `REPO_CREATION_TOKEN`, merge the creation workflow, or execute real creation until main protection is enforced and the Owner has accepted the deployment choice. No public visibility or paid-plan change is authorized by this setup.
+Before issuing or saving `REPO_CREATION_TOKEN`, merging the creation workflow or executing real creation, verify enforced main protection, final-head CI and independent review. Use active Ruleset `main-pr-ci`: PR required, 0 mandatory approvals, `repository-creation-tests` required from GitHub Actions with latest-base checks, deletion/force-push blocked and no bypass actors. Visibility changes and paid-plan changes require separate Owner approval; this installation authorizes neither future changes nor public repository creation.
 
 ## Installation
 
